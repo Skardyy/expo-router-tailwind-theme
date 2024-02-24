@@ -16,6 +16,17 @@
       ]
     ],
     "name": "rn1-native",
-    "slug": "rn1-native"
+    "slug": "rn1-native",
+    "extra": {
+      "router": {
+        "origin": "https://n"
+      },
+      "eas": {
+        "projectId": "bdf6e42c-7a32-4a93-be7c-d70bb36ecb82"
+      }
+    },
+    "android": {
+      "package": "com.meronbsn.rn1native"
+    }
   }
 }
