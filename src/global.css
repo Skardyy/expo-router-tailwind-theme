@@ -1,3 +1,33 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    :root {
+        --color-primary: rgb(0 0 0);
+        --color-secondary: rgb(21 21 21);
+        --color-accent: rgb(0 0 0);
+
+        --color-bkg: rgb(255 255 255);
+        --color-txt: rgb(0 0 0);
+        --color-wtxt: rgb(21 21 21);
+
+        --color-green: rgb(64 167 38);
+        --color-red: rgb(195 12 12);
+    }
+
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --color-primary: rgb(255 255 255);
+            --color-secondary: rgb(210 210 210);
+            --color-accent: rgb(255 255 255);
+    
+            --color-bkg: rgb(10 10 10);
+            --color-txt: rgb(255 255 255);
+            --color-wtxt: rgb(210 210 210);
+    
+            --color-green: rgb(88 245 98);
+            --color-red: rgb(247 89 100);
+        }
+    }
+}
